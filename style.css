@@ -43,6 +43,10 @@ footer p{
     background-repeat: no-repeat;
     background-position: right;
 }
+.bottom-banner img{
+    position: relative;
+    top: -100px;
+}
 .experience-area{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
@@ -72,8 +76,4 @@ footer p{
     border-left: 7px solid;
     border-image: linear-gradient(180deg, blue, cyan);
     border-image-slice: 1;
-}
-.responsive{
-    width: 100%;
-    height: auto;
 }
