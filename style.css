@@ -43,6 +43,7 @@ section{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
+    padding-top: 150px;
 }
 .link-button{
     text-decoration: none;
@@ -71,4 +72,7 @@ section{
 footer p{
     text-align: center;
     font-size: 15px;
+}
+.responsive{
+    
 }
