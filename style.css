@@ -11,6 +11,14 @@ h2{
 p{
     color: dimgray;
 }
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+footer p{
+    text-align: center;
+    font-size: 15px;
+}
 .name-highlight{
     color: orange;
 }
@@ -25,10 +33,6 @@ p{
 }
 .half-width img{
     width: 100%;
-}
-section{
-    height: 500px;
-    padding-bottom: 150px;
 }
 .top-banner{
     background-image: url("images/top-banner.png");
@@ -69,10 +73,7 @@ section{
     border-image: linear-gradient(180deg, blue, cyan);
     border-image-slice: 1;
 }
-footer p{
-    text-align: center;
-    font-size: 15px;
-}
 .responsive{
-    
+    width: 100%;
+    height: auto;
 }
