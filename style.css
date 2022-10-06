@@ -187,3 +187,9 @@ input[type=submit]{
     margin: 0 7px 30px 7px;
     padding: 6px;
 }
+.learn{
+    margin: auto;
+    width: 10%;
+    height: auto;
+    padding: 7px 10px 5px 7px;
+}
