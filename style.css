@@ -133,6 +133,14 @@ header #branding h1{
     margin: auto;
     overflow: hidden;
 }
+/* contact */
+.contact{
+    margin: auto;
+    width: 30%;
+    border: 3px solid none;
+    padding: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
 input[type=text], [type=number], select{
     width: auto;
     padding: 12px 20px;
@@ -155,11 +163,4 @@ input[type=submit]{
 }
 input[type=text], [type=number]:focus{
     width: auto;   
-}
-.contact{
-    margin: auto;
-    width: 30%;
-    border: 3px solid none;
-    padding: 10px;
-    box-shadow: 10px 10px 40px gray;
 }
