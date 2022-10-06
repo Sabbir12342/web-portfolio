@@ -72,11 +72,13 @@ footer p{
     border-left: 7px solid;
     border-image: linear-gradient(180deg, lightsalmon, tomato);
     border-image-slice: 1;
+    overflow: auto;
 }
 #full{
     border-left: 7px solid;
     border-image: linear-gradient(180deg, blue, cyan);
     border-image-slice: 1;
+    overflow: auto;
 }
 /* header */
 header li{
@@ -164,7 +166,7 @@ input[type=submit]{
     cursor: pointer;
     background-image: linear-gradient(90deg, lightgreen, green);
 }
-div h2{
+.c{
     font-size: 35px;
     text-align: center;
     padding-bottom: -50px;
@@ -172,7 +174,7 @@ div h2{
     text-transform: uppercase;
     text-shadow: 3px 3px #ccc;
 }
-div h3{
+.d{
     text-align: center;
     padding-top: -80px;
     margin: 0%;
