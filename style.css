@@ -38,6 +38,11 @@ footer p{
 .top-banner{
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
+    margin: auto;
+}
+.top-banner img{
+    position: relative;
+    top: -130px;
 }
 .bottom-banner{
     background-image: url(images/dream-bg.png);
