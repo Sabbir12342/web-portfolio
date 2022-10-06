@@ -12,7 +12,7 @@ h2{
 p{
     color: dimgray;
 }
-section{
+section .index{
     height: 500px;
     padding-bottom: 150px;
 }
@@ -178,4 +178,18 @@ input[type=submit]{
     text-align: center;
     padding-top: -80px;
     margin: 0%;
+}
+.service{
+    border-radius: 5px; 
+    box-shadow: 3px 3px 10px;
+    width: 31%;
+    float: right;
+    margin: 0 7px 30px 7px;
+    padding: 6px;
+}
+.service h4{
+    text-align: center;
+}
+#service-menu a{
+    float: center;
 }
