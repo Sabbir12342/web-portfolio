@@ -40,18 +40,10 @@ footer p{
     background-repeat: no-repeat;
     margin: auto;
 }
-.top-banner img{
-    position: relative;
-    top: -130px;
-}
 .bottom-banner{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
-}
-.bottom-banner img{
-    position: relative;
-    top: -100px;
 }
 .experience-area{
     background-image: url(images/exp-bg.png);
