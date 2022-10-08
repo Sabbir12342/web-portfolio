@@ -77,7 +77,7 @@ footer p{
     border-image-slice: 1;
     overflow: auto;
 }
-/* header all */
+/* header */
 header li{
     float: left;
     padding: 0 20px 0 20px;
@@ -176,13 +176,37 @@ input[type=submit]{
     padding-top: -80px;
     margin: 0%;
 }
-.service{
-    border-radius: 5px; 
-    box-shadow: 3px 3px 10px;
-    width: 31%;
-    float: right;
-    margin: 0 7px 30px 7px;
-    padding: 6px;
+.learn{
+    margin: auto;
+    width: 10%;
+    height: auto;
+    padding: 7px 10px 5px 7px;
+}
+/* service page */
+
+.gird{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    justify-items: center;
+    gap: 30px;
+}
+.gird .service{
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 3px 3px 40px;
+    
+}
+.gird h4{
+    text-align: center;
+    text-transform: uppercase;
+}
+.gird p{
+    text-align: center;
+    text-transform: capitalize;
+}
+.service:hover{
+    box-shadow: 3px 3px 40px gray;   
 }
 .learn{
     margin: auto;
